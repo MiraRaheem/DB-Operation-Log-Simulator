@@ -1,0 +1,16 @@
+S,T1
+W,T1,A,2,4
+S,T2
+W,T1,B,10,7
+W,T2,C,5,6
+S,T3
+W,T2,E,1,0
+W,T3,D,1,2
+Commit,T1
+Checkpoint_1
+S,T4
+W,T4,E,0,3
+W,T3,E,3,5
+Checkpoint_2
+Commit,T3
+W,T4,C,6,2
